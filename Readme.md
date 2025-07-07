@@ -53,9 +53,9 @@ Spotify_Project/
 
 #Environment Variables
 Create a `.env` file in the root directory with your Spotify API credentials:
-dotenv
-client_id=your_spotify_client_id
-client_secret=your_spotify_client_secret
+- dotenv
+- client_id=your_spotify_client_id
+-  client_secret=your_spotify_client_secret
 
 #How to Run
 - Clone this repository
