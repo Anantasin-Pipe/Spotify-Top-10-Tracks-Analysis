@@ -58,8 +58,8 @@ client_id=your_spotify_client_id
 client_secret=your_spotify_client_secret
 
 #How to Run
-1.Clone this repository
-2.Set up a virtual environment(optional but recommended)
-3.Install dependencies by "pip install -r requirements.txt"
-4.Add your .env file
-5.Run the script by "python main.py" then open notebook to analysis the data
+- Clone this repository
+- Set up a virtual environment(optional but recommended)
+- Install dependencies by "pip install -r requirements.txt"
+- Add your .env file
+- Run the script by "python main.py" then open notebook to analysis the data
