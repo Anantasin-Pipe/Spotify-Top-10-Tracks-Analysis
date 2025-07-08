@@ -41,7 +41,7 @@ def write_top_track(top_track, artist_name, follower ,write_header = False, writ
     with open('data/artist_top10_track_raw.csv', write_mode, newline='', encoding='utf-8') as f:
         csv_writer = csv.writer(f)
         if write_header:
-            csv_writer.writerow(['Rank','Albums','Artist','Name','Popularity','Track Number In Album', 'Duration','Followers'])
+            csv_writer.writerow(['track_rank','album','artist','track_name','popularity','track_in_album', 'duration','follower'])
         sort_top_track = sorted(top_track, key=lambda track: track['popularity'], reverse=True)
         for idx,track in enumerate(sort_top_track):
             rank = idx+1
