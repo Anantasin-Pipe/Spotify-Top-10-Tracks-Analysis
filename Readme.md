@@ -30,27 +30,6 @@ The analysis is presented through visualizations using Matplotlib and Seaborn to
 
 ---
 
-#Project Structure
-Spotify_Project/
-├── data/
-│ └── artist_top10_track_clean
-│ └── artist_top10_track_raw.csv
-├── notebook/
-│ └── analysis_data.ipynb
-│ └── graph.ipynb
-│ └── sort_data.ipynb
-├── visual/
-│ └── \*.png
-├── src/
-│ └── spotify_api.py
-├── main.py
-├── requirements.txt
-├── .env
-├── .gitignore
-└── README.md
-
----
-
 #Environment Variables
 Create a `.env` file in the root directory with your Spotify API credentials:
 - dotenv
