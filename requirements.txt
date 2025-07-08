@@ -19,6 +19,7 @@ executing==2.2.0
 fonttools==4.58.5
 gitdb==4.0.12
 GitPython==3.1.44
+greenlet==3.2.3
 idna==3.10
 importlib_metadata==8.7.0
 importlib_resources==6.5.2
@@ -45,6 +46,7 @@ platformdirs==4.3.8
 prompt_toolkit==3.0.51
 protobuf==6.31.1
 psutil==7.0.0
+psycopg2-binary==2.9.10
 pure_eval==0.2.3
 pyarrow==20.0.0
 pydeck==0.9.1
@@ -63,6 +65,7 @@ seaborn==0.13.2
 six==1.17.0
 smmap==5.0.2
 spotipy==2.25.1
+SQLAlchemy==2.0.41
 stack-data==0.6.3
 streamlit==1.46.1
 tenacity==9.1.2
