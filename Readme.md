@@ -31,6 +31,7 @@ The analysis is presented through visualizations using Matplotlib and Seaborn to
 ---
 
 #Environment Variables
+
 Create a `.env` file in the root directory with your Spotify API credentials:
 - dotenv
 - client_id=your_spotify_client_id
